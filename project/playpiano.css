@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+#piano {
+    height: 340px;
+    width: 75vw;
+    padding: 50px 30px 0 30px;
+    background-color: rgb(65, 61, 61);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 15px;
+    margin:0 auto; 
+    margin-top: 150px;
+    
+   
+}
+
+.keys {
+    position: relative;
+
+}
+
+.white-keys {
+    display: flex;
+}
+
+.black-keys {
+    position: relative;
+    display: flex;
+}
+
+.white-key {
+    width: 68px;
+    height: 280px;
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+.black-key {
+    width: 38px;
+    height: 160px;
+    border-radius: 0 0 5px 5px;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: #000;
+    color:white
+}
+
+.black-key:nth-child(1) {
+    left: 48px;
+}
+
+.black-key:nth-child(2) {
+    left: 117px;
+}
+
+.black-key:nth-child(3) {
+    left: 253px;
+}
+
+.black-key:nth-child(4) {
+    left: 320px;
+}
+
+.black-key:nth-child(5) {
+    left: 389px;
+}
+
+.black-key:nth-child(6) {
+    left: 525px;
+}
+
+.black-key:nth-child(7) {
+    left: 594px;
+}
+
+.black-key:nth-child(8) {
+    left: 662px;
+}
+
+.black-key:nth-child(9) {
+    left: 797px;
+}
+
+.black-key:nth-child(10) {
+    left: 865px;
+}
+.black-key:active{
+    background-color: lightgray;
+}
+
+.white-key:active{
+    background-color: lightgray;
+}
+
+
+ #sheet{
+    
+    margin-left: 50px;
+    word-wrap: break-word;
+} 
+
+#aa{
+ 
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    align-items: center;
+    border: 2px solid black; 
+    width: 70vw;
+     margin: 15px; 
+     margin-left: 15vw;
+    padding: 10px;
+   
+}
+
+#aa i{
+    font-size: 2rem;
+    margin-right: 3rem;
+    
+}
+.black-keys div span {
+    color:white;
+    margin-top: 135px;
+    display: flex;
+    justify-content: center;
+}
+
+.white-keys div span {
+ 
+    margin-top: 255px;
+    display: flex;
+    justify-content: center;
+}
+
+#exemples{
+    width: 85vw;
+    height: max-content;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+#sheet-exemple{
+    width: 40vw;
+    height: 150vh;
+    
+} 
+
+#create-exemple{
+    width: 40vw;
+    height: 150vh;
+    position: relative;
+}
+
+.nodeh4 {
+    display: flex;
+    justify-content: center;
+    text-align: center;  
+    align-items: center;  
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.pnode{
+   margin:5px;
+   padding: 5px;
+   font-weight: bold;
+   font-size: 20px;
+}
+
+.txtnode{
+    margin-left: 6vw;
+    font-size: 20px;
+    font-style: italic;
+
+}
+
+#songs{
+    margin-top: 20%;
+    position: absolute;
+    
+}
+
+ #songs p{
+     border: 1px solid black;
+    margin: 10px; 
+    font-size: 18px;
+    width: 40vw;
+    height: auto;
+    word-wrap: break-word;
+} 
+
+
+
+#songs p button{
+     padding: 5px 5px;
+    margin: 5px 5px; 
+    right: 0; 
+}
+
+#arrow{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-size: 3rem;
+    z-index: 5;
+    margin-bottom: 5rem;
+    opacity: 0.3;
+  }

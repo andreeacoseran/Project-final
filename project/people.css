@@ -1,0 +1,120 @@
+
+
+#container{
+    width: 100vw;
+    height: max-content;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 4%;
+  
+    
+} 
+#artist {
+  width: 25vw;
+  height: max-content;
+  position: fixed;
+  top: 15vh;
+  left: 50px;
+
+}
+
+#about{
+  width: 60vw;
+  height: max-content;
+  margin-left: 25vw;
+  margin-top: 15vh;
+  
+}
+
+#artist h3{
+    display: flex;
+    justify-content: center;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 1.8rem;
+    margin-top: 15px;
+    border-bottom: 2px solid black;
+    padding: 10px 5px;
+}
+
+#container  #artist div:nth-child(2){
+  
+  width: 25vw;
+  height: max-content;
+}
+
+#container  #artist div:nth-child(2) p{
+  padding:  9px;
+  border-bottom:  1px dotted black;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+
+}
+
+#container  #artist div:nth-child(2) p:hover{
+  background-color: rgba(85, 107, 47, 0.39);
+}
+
+#about article{
+  width: 60vw;
+  height: max-content;
+  margin-bottom: 5rem;
+  font-size: 1.5rem;
+  
+}
+
+#about article h2{
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  padding: 15px;
+  font-size: 2rem;
+}
+
+#about article ul{
+  margin-left: 10%;
+  font-size: 1.5rem;
+  
+}
+
+.picture{
+
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  float: left;
+  shape-outside: circle(50%) ;
+  margin-right: 2rem ;
+
+}
+
+
+audio{
+  height: 1.5rem;
+  float: right;
+}
+
+i{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  font-size: 3rem;
+  z-index: 5;
+  margin-bottom: 5rem;
+  opacity: 0.3;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

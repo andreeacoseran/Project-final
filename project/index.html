@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>  
+    <header id="header">
+        <img  id="title-img" src="trefle.png" alt="picture">
+        <h1>AcoSheets</h1>
+
+    </header>
+
+    <main id="main">
+        <a class="active" href="index.html">Home</a>
+        <a href="people.html">People</a>
+        <a href="playOnline.html">Play</a>
+        <a href="aboutus.html">About</a>
+        <a href="contact.html">Contact</a>
+
+    </main>
+
+    <div id="content"> 
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <img class="width-100" src="pic77.jpg" alt="picture">
+            </div>
+            <div class="mySlides fade">
+                <img class="width-100" src="pic22.jpg" alt="picture">
+            </div>
+    
+            <div class="mySlides fade">
+                <img class="width-100" src="pic44.jpg" alt="picture">
+            </div>
+            <div class="mySlides fade">
+                <img class="width-100" src="pic33.jpg" alt="picture">
+            </div>
+            <div class="mySlides fade">
+                <img class="width-100" src="pic66.jpg" alt="picture">
+            </div>
+        
+        </div>
+
+        <div style="text-align: center;">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+
+        </div>
+
+
+    </div> 
+
+    <video autoplay loop muted>
+        <source src="hd2.mp4" type="video/mp4">
+      </video>
+      <br>  <br>  <br>
+      
+
+        <div id="container">
+            <div id="keyJS">
+                <div class="keyleft"> &#9835; </div>
+                <div class="keyleft">&#9833; </div>
+                <div class="keyleft"> &#9839; &#9834; </div>
+                <div class="keyright">&#9834; </div>
+                <div class="keyright"> &#9836; </div>
+                <div class="keytop"> &#9835; &#9833; </div>
+                <div class="keytop">&#9833; </div>
+                <div class="keytop"> &#9839; &#9834; </div>
+    
+            </div>
+
+        
+        </div>
+    
+   
+
+ <!-- footer -->
+<footer>
+    <p> &#169; By AcoSheets  2023</p>
+
+</footer>
+
+    <script src="home.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

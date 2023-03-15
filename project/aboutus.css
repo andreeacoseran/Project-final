@@ -1,0 +1,81 @@
+h3{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+ 
+}
+
+
+#player{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 40%;
+    margin-top: 95px;
+  
+  
+}
+
+
+.citat{
+    width: 60vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-left: 40%;
+    margin-top: 20px;
+    font-family: 'Brush Script MT', cursive; 
+    font-size: 2rem ;
+    font-weight: 600;
+}
+
+ .citat .letter {
+    display: inline-block;
+    line-height: 1em;
+    opacity: 0;
+  } 
+
+#portativ{
+    width: 75vw;
+    height: 510px;
+    margin: 55px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 350px;
+    margin-bottom: 50px;
+    
+ 
+}
+
+#article{
+    width: 60vw;
+    height: 35vh;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    word-wrap: break-word;
+}
+
+#article p{
+    font-size: 18px;
+    margin: 15px;
+
+}
+
+li{
+    margin-left: 15%;
+    opacity: 0;
+    font-weight: bold;
+}
+
+li div{
+    font-style: italic;
+    margin: 5px;
+    margin-left: 20%;
+    font-weight: 100;
+   
+}

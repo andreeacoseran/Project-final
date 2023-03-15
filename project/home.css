@@ -1,0 +1,320 @@
+video{
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    /* margin-left: 8vw; */
+    position: absolute;
+    width: 100vw;
+    height: 97vh;
+    opacity: 0.8;
+  
+}
+
+ #container{
+    width: 100vw;
+    height:max-content;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    margin-top: 7vh;
+    z-index: 3;
+
+    
+} 
+
+#container h3{
+     margin-top: 1rem; 
+    font-size: 4rem;
+    margin-bottom: 1em;
+    color: rgb(233, 227, 227);
+    text-shadow: 0 0 4px #da5305, 2px 2px rgb(212, 124, 8),  2px 2px rgb(3, 2, 0);
+}
+
+ #container p{
+    font-size: 30px;
+    margin-bottom: 0.5em;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 4px #da5305, 2px 2px rgb(107, 9, 9);
+
+} 
+
+#container a{
+    padding: 15px;
+    background-color: rgb(212, 124, 8);
+    border-radius: 25px;
+    text-decoration: none;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    margin-top: 80px;
+    margin-left: -50px;
+}
+
+.key1, .key2, .key3, .key4, .key5 { 
+    position: absolute;
+    animation: note 3s infinite linear;
+    font-size: 1rem;
+    opacity: 0; 
+
+}
+
+.key1 {
+    top: 50%;
+    left: 40%;
+    animation-delay: 0.5s;
+}
+
+.key2 {
+    top: 50%;
+    left: 47%;
+    animation-delay: 1s;
+}
+
+.key3{
+    top: 50%;
+    left: 54%;
+    animation-delay: 2s;
+   
+}
+
+.key4{
+    top: 50%;
+    left: 57%;
+    animation-delay: 3s;
+   
+}
+
+.key5{
+    top: 50%;
+    left: 60%;
+    animation-delay: 4s;
+
+}
+
+@keyframes note {
+    0% {
+        transform: scale(1) translate(0, 10%);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(2) translate(50%, -50%);
+    }
+
+    80% {
+        opacity: 0.5;
+        transform: scale(3) translate(100%, -150%);
+    }
+
+    100% {
+        transform: scale(5) translate(100%, -100%);
+        opacity: 0;
+    }
+}
+
+#portativ{
+    width: 80vw;
+    height: 15vh; 
+    position: absolute;
+    top: 210px;
+    margin: 20px;
+    margin-left: 10%;
+    background-image: url('images5.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 8;
+ 
+}
+
+#keyJS{
+    display: flex;
+    justify-content: space-between;
+    text-align: center; 
+     align-items: center; 
+     position: absolute;
+     position: relative;
+     color: white;
+
+}
+
+#keyJS div:nth-child(1){
+
+    font-size: 3rem;
+    margin-top: 3%;
+    margin-left: 5%; 
+    position: absolute;
+    opacity: 0.2;  
+    color: white;
+}
+
+#keyJS div:nth-child(2){
+  
+    font-size: 3rem;
+    margin-left: 5%;
+    margin-top: 30%; 
+    position: absolute;
+    opacity: 0.2;  
+    color: white;
+}
+
+#keyJS div:nth-child(3){
+  
+    font-size: 3rem;
+    margin-left: 5%;
+    margin-top: 55%; 
+    position: absolute;
+    opacity: 0.2;  
+    color: white;
+  
+   
+}
+
+#keyJS div:nth-child(4){
+  
+    font-size: 3rem;
+    right: 5%;
+    margin-top: 15%;
+    position: absolute;
+    opacity: 0.2;  
+    
+   
+}
+#keyJS div:nth-child(5){
+
+    font-size: 3rem;
+    right: 5%;
+    margin-top: 40%;
+    position: absolute;
+    opacity: 0.2;  
+   
+}
+
+#keyJS div:nth-child(6){
+  
+    font-size: 3rem;
+    top: 0;
+    margin-left: 10%;
+    position: absolute;
+    opacity: 0.2;  
+   
+}
+#keyJS div:nth-child(7){
+   
+    font-size: 3rem;
+    top: 0;
+    margin-left: 50%;
+    position: absolute;
+    opacity:0.2;  
+ 
+}
+#keyJS div:nth-child(8){
+   
+    font-size: 3rem;
+    top: 0;
+    margin-left: 90%;
+    position: absolute;
+    opacity: 0.2;  
+ 
+}
+
+.slideshow-container {
+    width: 80vw;
+    position: relative;
+    margin: auto;
+   
+}
+
+.mySlides {
+    display: none;
+}
+
+.width-100{
+   
+    display: flex;
+    margin: auto;
+    width: 80vw;
+    height: 70vh;
+    border-radius: 10px;
+   
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: rgb(212, 4, 4);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 0;
+    user-select: none;
+}
+.next {
+    right: 40px;
+    border-radius: 3px 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    from {opacity: 0.4}
+    to {opacity: 1}
+}
+
+ #content{
+    width: 100vw;
+    height: 75vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 64px;
+    margin-top: 15vh;
+} 
+
+
